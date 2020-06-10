@@ -1,23 +1,24 @@
+
 # certificacao-laravel
 O propósito do presente repositório é fornecer subsídio ao estudante/desenvolvedor p/ o estudo do @laravel a fim de aprender e ter condições de ser aprovado na prova de certificação do framework. 
 
 Esse projeto é extenso e está em desenvolvimento, então não se frustre por não encontrar o pote de ouro no fim do arco-íris. Caso queira contribuir com o projeto, fique à vontade para participar toda ajuda é bem-vinda.
 
-##Lista de tópicos abordados no exame
+## Lista de tópicos abordados no exame
 
-###PHP
+**PHP**
 -Version 7.1+
 -Composer
 -Autoloading Standards
 
-###Architecture
+**Architecture**
 -Request Lifecycle
 -Service Container Binding and Resolution
 -Service Providers
 -Facades
 -HTTP Verbs
 
-###Routing
+**Routing**
 -Redirects
 -Route Parameters
 -Named Routes
@@ -25,11 +26,11 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Route Model Binding
 -Rate Limiting
 
-###Middleware
+**Middleware**
 -Defining / Registering Middleware
 -Middleware Parameters
 
-###Controllers
+**Controllers**
 -Defining Controllers
 -Controller Namespacing
 -Single Action Controllers
@@ -38,14 +39,14 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Dependency Injection
 -Route Caching
 
-###Requests
+**Requests**
 -PSR-7 Requests
 -Request Path and Method
 -Retrieving Input
 -Uploaded Files
 -Proxy Configuration
 
-###Responses
+**Responses**
 -Attaching Headers / Cookies
 -Encryption
 -Redirects
@@ -53,17 +54,17 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Response Types
 -Response Macros
 
-###Views
+**Views**
 -Creating Views
 -Passing Data to Views
 -View Composer
 
-###URL Generation
+**URL Generation**
 -Named Routes
 -Controller Actions
 -Default Values
 
-###Sessions
+**Sessions**
 -Configuration
 -Storing Data
 -Retrieving Data
@@ -71,74 +72,74 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Flash Data
 -Custom Drivers
 
-###Validation
+**Validation**
 -Form Requests
 -Manually Creating Validators
 -Error Messages
 -Validation Rules
 -Custom Rules
 
-###Logging
+**Logging**
 -Configuration
 -Writing to Specific Channels
 -Creating Custom Channels
 
-###Frontend
+**Frontend**
 -Blade Templating
 -Localization
 -Asset Compilation
 
-###Security
+**Security**
 -Authentication
 -Authorization
 -Encryption / Hashing
 -CSRF Protection
 -XSS Protection
 
-###Artisan Console
+**Artisan Console**
 -Generating Commands
 -Command I/O
 -Registering Commands
 -Executing Commands
 
-###Websockets
+**Websockets**
 -Broadcasting Events
 -Receiving Events
 -Broadcasting Channels
 -Presence Channels
 -Client Events
 
-###Caching
+**Caching**
 -Drivers / Configuration
 -Storing Items
 -Retrieving Items
 -Cache Tags
 -Creating Custom Drivers
 
-###Collections
+**Collections**
 -Creating / Extending Collections
 -Collection Methods
 -Higher-order Messages
 
-###Events
+**Events**
 -Registering Events / Listeners
 -Queued Listeners
 -Dispatching Events
 -Subscribing to Events
 
-###File Storage
+**File Storage**
 -Configuration / Drivers
 -Storing / Retrieving Files
 -Custom Filesystems
 
-###Helper Methods
+**Helper Methods**
 -Arrays / Objects
 -Paths
 -Strings
 -URLs
 -Misc
 
-###Mail
+**Mail**
 -Drivers / Configuration
 -Generating Mailables
 -Writing Mail
@@ -146,7 +147,7 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Markdown
 -Local Development
 
-###Notifications
+**Notifications**
 -Creating Notifications
 -Sending Notifications
 -Mail Notifications
@@ -157,7 +158,7 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Slack Notifications
 -Custom Channels
 
-###Package Development
+**Package Development**
 -Discovery
 -Service Providers
 -Resources
@@ -165,14 +166,14 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Assets
 -Publishing File Groups
 
-###Queues
+**Queues**
 -Drivers / Configurations
 -Creating / Dispatching Jobs
 -Running Queue Workers
 -Supervisor
 -Handling Failed Jobs
 
-###Task Scheduling
+**Task Scheduling**
 -Scheduling Artisan Commands
 -Scheduling Queue Jobs
 -Scheduling Shell Commands
@@ -180,7 +181,7 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Preventing Task Overlaps
 -Maintenance Mode
 
-###Database
+**Database**
 -Query Builder
 -Pagination
 -Migrations
@@ -189,13 +190,13 @@ Esse projeto é extenso e está em desenvolvimento, então não se frustre por n
 -Conventions
 -Relationships
 
-###Eloquent Collections
+**Eloquent Collections**
 -Mutators / Accessors
 -API Resources
 -Serialization
 -Scopes
 
-###Testing
+**Testing**
 -Creating / Running Tests
 -HTTP Tests
 -Session / Authentication
